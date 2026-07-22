@@ -51,7 +51,7 @@ decrementAvQuantity: (state, action) => {
 		item.quantity--;
 	}
 },
-});
+}});
 
 export const { incrementAvQuantity, decrementAvQuantity } = avSlice.actions;
 

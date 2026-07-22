@@ -10,7 +10,7 @@ const ConferenceEvent = () => {
     const venueItems = useSelector((state) => state.venue);
     const dispatch = useDispatch();
     const remainingAuditoriumQuantity = 3 - venueItems.find(item => item.name === "Auditorium Hall (Capacity:200)").quantity;
-const avItems = useSelector((state) => av.initial.);
+const avItems = useSelector((state) => state.av);
     
     const handleToggleItems = () => {
         console.log("handleToggleItems called");
